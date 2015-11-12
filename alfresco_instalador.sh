@@ -102,8 +102,13 @@ sudo /opt/alfresco/tomcat/apache-tomcat-7.0.65/bin/startup.sh
 sleep 3
 clear 
 echo "::::PRIMEIRA PARTE FINALIZADA!:::"
-echo "Ambiente levantadom aguarde inicio da instalacao da ferramenta..."
-sleep 3
+echo "Ambiente levantado, aguarde orientacoes para configurar o banco de dados...."
+sleep 4
+clear
+echo "Agora eh necessario criar um usuario para o Alfresco no banco, bem como criar o schema."
+echo 
+echo "O essa parte eh manual, porem basta copiar os codigos que seram apresentados a seguir e teclar <ENTER>..."
+sleep 4
 
 
 
